@@ -1,0 +1,21 @@
+aside {
+    width:200px;
+    height: 100vh;
+    background-color: #0f152b;
+    padding: 10px;
+    color: white;
+    position: fixed;
+    left: 0;
+    top: 0; 
+}
+aside ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+aside ul :hover{
+    cursor: pointer;
+}
+aside ul li:hover{
+    background-color: grey;
+}

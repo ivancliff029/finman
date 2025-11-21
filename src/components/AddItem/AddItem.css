@@ -1,0 +1,51 @@
+.item-form{
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+input{
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    
+}
+button{
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width:100%;
+    padding:10px;
+}
+select{
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.success-message{
+    color:white;
+    background-color:green;
+    padding: 10px;
+    border-radius: 10px;
+}
+.success-message-close{
+    float:right;
+    cursor:pointer;
+    font-weight:bold;
+}
+.wrapper{
+    display : flex;
+    justify-content : center;
+    margin: 10px;
+    padding: 10px;
+}
+.wrapper .edit{
+    width: 400px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 300px;
+}
