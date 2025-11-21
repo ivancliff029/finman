@@ -4,6 +4,7 @@ export default function OfficialLanding() {
             <div>
                 <h1>Welcome to the Official Landing Page</h1>
                 <p>This is the official landing page of our application.</p>
+                <button><a href="/get-started">Get started</a></button>
             </div>
         </>
     )
